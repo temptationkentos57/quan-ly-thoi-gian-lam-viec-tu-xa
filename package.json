@@ -1,12 +1,13 @@
 {
   "name": "quan-ly-thoi-gian-lam-viec-tu-xa",
   "version": "1.0.0",
-  "description": "Ứng dụng quản lý thời gian làm việc từ xa giúp người dùng tối ưu hóa quy trình làm việc hiệu quả hơn.",
+  "description": "Ứng dụng quản lý thời gian làm việc từ xa giúp người dùng tối ưu hóa quy trình làm việc, nâng cao hiệu quả công việc.",
   "main": "index.js",
   "scripts": {
     "start": "node server/index.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node server/index.js" // Script to start the server
   },
   "dependencies": {
     "express": "^4.17.1",
